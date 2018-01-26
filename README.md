@@ -1,6 +1,8 @@
 # Monay Scam Network
 This extension is designed for research purposes to discover a scam network
 
+![screenshot](scamsiteemail.jpg)
+
 Note: The network has updated its code and included the actual dom in a cross-origin frame. As a workaround, go to that frame url directly instead of dealing with it in a frame.
 
 Came across this FAKE SCAM website today:
