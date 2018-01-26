@@ -1,0 +1,92 @@
+.hil-btn {
+  background: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  padding: 5px 15px;
+  color: white;
+}
+.hil-btn:hover {
+  color: white;
+}
+.hil-btn.arabic {
+  left: 30px;
+  right: auto;
+  top: 10px;
+}
+.hil-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+#popup {
+  min-width: 300px;
+  min-height: 250px;
+  background-color: #1A2E40;
+}
+#popup .screen {
+  display: none;
+}
+#popup.login-screen .login-screen {
+  display: block;
+}
+#popup.settings-screen .settings-screen {
+  display: block;
+}
+#popup.landing-screen .landing-screen {
+  display: block;
+}
+#popup #container {
+  color: white;
+  padding: 0 30px 30px;
+}
+#popup #container a {
+  color: white;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+#popup #container .logo {
+  width: 70%;
+  margin: 20px auto  ;
+}
+#popup #container label {
+  color: white;
+}
+#popup #container .hello-message {
+  padding-top: 25px;
+}
+#popup #container .login-screen .input-group-addon {
+  color: #1A2E40;
+  background: white;
+}
+#popup #container .login-screen input {
+  background: none;
+  color: white;
+}
+#popup #container .login-screen button {
+  margin-top: 20px;
+}
+#popup #container .login-screen ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+#popup #container .login-screen ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+#popup #container .login-screen :-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+#popup #container .login-screen :-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+#popup #container .login-screen h4 {
+  margin-top: 0;
+}
+#popup #container .login-screen p {
+  color: white;
+}
