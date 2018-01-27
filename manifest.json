@@ -21,7 +21,6 @@
   ] ,
   "content_scripts": [ {
     "js": [ "/js/lib/jquery-1.12.4.min.js", "/js/content_script.js" ],
-    "css": ["/css/style.css"],
     "matches": [
       "http://*/showadv.php*"
     ],
