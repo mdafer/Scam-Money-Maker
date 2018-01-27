@@ -1,4 +1,4 @@
-# Monay Scam Network
+# Money Scam Network Research
 This extension is designed for research purposes to discover a scam network
 
 ![screenshot](scamsiteemail.jpg)
